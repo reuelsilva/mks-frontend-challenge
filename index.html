@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKS Sistemas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <span id="logo">MKS <span>Sistemas</span></span>
+        <div id="cart-trigger" title="Abrir">
+            <img src="assets/shopping-cart.svg" alt="Carrinho de compras">
+            <span id="cart-counter"></span>
+        </div>
+    </header>
+    <div id="catalog"></div>
+    <div id="checkout">
+        <h2>Carrinho <br> de compras</h2>
+        <button id="close-checkout-btn" title="Fechar">
+            <span>x</span>
+        </button>
+        <div id="void"></div>
+        <div id="cart"></div>
+        <ul id="order-details">
+            <li class="row-total">
+                <span class="label">Total:</span>
+                <span class="result"></span>
+            </li>
+        </ul>
+        <button id="cta">Finalizar Compra</button>
+    </div>
+    <footer>
+        <p>MKS Sistemas © Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
